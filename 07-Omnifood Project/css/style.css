@@ -11,6 +11,7 @@
   /* Beacause we wnat header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -18,14 +19,14 @@
 }
 
 /**************************************************/
-/***************** TNAVIGATION ****************/
+/***************** NAVIGATION ****************/
 /**************************************************/
 
 .main-nav-list {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -54,6 +55,25 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background: #cf711f;
+}
+
+/* Mobile */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
 }
 
 /**************************************************/
@@ -337,7 +357,7 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
 }
