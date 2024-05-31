@@ -10,7 +10,6 @@ This repository contains the projects and tasks completed as part of the HTML & 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## About the Course
